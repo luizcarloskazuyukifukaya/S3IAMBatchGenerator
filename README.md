@@ -35,7 +35,8 @@ Please always add the endpoint  "--endpoint-url https://iam.ap-northeast-1.wasab
 AWSコマンドラインインターフェース(CLI)をインストールしてください
 https://docs.aws.amazon.com/ja_jp/cli/latest/userguide/cli-chap-welcome.html
 
-<b>重要:</b> このツールを使用するには、まず AWS CLI をインストールする必要があります。 
+<b>重要:</b></p> 
+このツールを使用するには、まず AWS CLI をインストールする必要があります。 
 AWS CLI バージョン 2 をインストールするには、「AWS CLI の最新バージョンにインストールまたは更新する」を参照してください。 
 
 ## AWS CLI Configuration and Credential File作成
@@ -46,10 +47,10 @@ aws 設定 詳細については、このAWSドキュメントを参照してく
 https://docs.aws.amazon.com/ja_jp/cli/latest/userguide/cli-configure-files.html
 
 ## コマンド リファレンス 
-詳細： 
+詳細：</p> 
 使用可能なすべてのコマンドについては、以下のAWSの公式ドキュメントを参照してください。 
 https://awscli.amazonaws.com/v2/documentation/api/latest/reference/iam/index.html
 
- WASABI CLOUD STORAGEの使用に関する注意事項 
+<b>WASABI CLOUD STORAGEの使用に関する注意事項</b></p> 
 コマンドは、ENDPOINT オプションを指定して実行する必要があります。
-エンドポイントは必ず「<b>--endpoint-url "https://iam.ap-northeast-1.wasabisys.com"</b>」を追加してください(必要に応じて対象地域に応じて変更してください)
+エンドポイントは必ず「<b>'--endpoint-url https://iam.ap-northeast-1.wasabisys.com'</b>」を追加してください(必要に応じて対象地域に応じて変更してください)
