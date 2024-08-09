@@ -5,7 +5,7 @@ This tool is prepared to automate the operation related to IAM such as manage us
 The automation is performed by using AWS CLI commands and there are prerequisites for the execution of the commands provided by this tool.
 
 ## Prerequisites:
-Please install the AWC Command Line Interface (CLI)
+Please install the AWS Command Line Interface (CLI)
 https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html
 
 <b>IMPORTANT:</b> YOU NEED TO INSTALL AWS CLI FIRST TO USE THIS TOOL.
