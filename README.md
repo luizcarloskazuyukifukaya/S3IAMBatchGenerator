@@ -40,11 +40,12 @@ https://docs.aws.amazon.com/ja_jp/cli/latest/userguide/cli-chap-welcome.html
 このツールを使用するには、まず AWS CLI をインストールする必要があります。 
 AWS CLI バージョン 2 をインストールするには、「AWS CLI の最新バージョンにインストールまたは更新する」を参照してください。 
 
-## AWS CLI Configuration and Credential File作成
-AWS CLI 設定および認証情報ファイル コマンドを実行するには、アクセスキーとシークレットキーを使用してAWS CLIを設定する必要があります。 
+## AWS CLI 設定ファイルと認証情報ファイルの設定
+AWS CLIコマンドを実行するには、アクセスキーとシークレットキーを設定ファイルと認証情報ファイルを作成する必要があります。 
 設定ファイルと認証情報ファイルは、'aws configure' コマンドを実行することで、AWS CLI をインストールした状態で作成できます。
+'aws configure'
 
-aws 設定 詳細については、このAWSドキュメントを参照してください。
+詳細については、このAWSドキュメントを参照してください。
 https://docs.aws.amazon.com/ja_jp/cli/latest/userguide/cli-configure-files.html
 
 ## コマンド リファレンス 
