@@ -14,25 +14,26 @@ To install the AWS CLI version 2, see Install or update to the latest version o
 ## AWS CLI Configuration and Credential File
 To execute the commands you must configure AWS CLI with your Access Key and Secret Key.
 The configuration file and the credential file can be created with the AWS CLI installed by executing the aws configure command:
-aws configure
+'aws configure'
 
 Please refer this AWS document for details.
 https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html
 
 ## Command References
-<b>Details:</b>
+<b>Details:</b></p>
 For all available commands, please refer to the official AWS documentation that can be fould bellow:
 https://awscli.amazonaws.com/v2/documentation/api/latest/reference/iam/index.html
 
-<b>NOTE FOR WASABI CLOUD STORAGE USE</b>
+<b>NOTE FOR WASABI CLOUD STORAGE USE</b></p>
 The command HAS to be executed with the ENDPOINT option specified. 
 Please always add the endpoint  "--endpoint-url https://iam.ap-northeast-1.wasabisys.com" (please change based on your target region if necessary)
 
-このスプレッドシートは、ユーザーやグループの管理など、IAMに関する操作を自動化するために用意されています。 
+# 日本語による補足
+このツールは、ユーザーやグループの管理など、IAMに関する操作を自動化するために用意されています。 
 自動化は AWS CLI コマンドを使用して実行され、このツールによって提供されるコマンドの実行には前提条件があります。 
 
 ## 前提条件： 
-AWSコマンドラインインターフェース(CLI)をインストールしてください
+AWSコマンドラインインターフェース(CLI)をインストールしてください。
 https://docs.aws.amazon.com/ja_jp/cli/latest/userguide/cli-chap-welcome.html
 
 <b>重要:</b></p> 
@@ -41,7 +42,7 @@ AWS CLI バージョン 2 をインストールするには、「AWS CLI の最�
 
 ## AWS CLI Configuration and Credential File作成
 AWS CLI 設定および認証情報ファイル コマンドを実行するには、アクセスキーとシークレットキーを使用してAWS CLIを設定する必要があります。 
-設定ファイルと認証情報ファイルは、”aws configure” コマンドを実行することで、AWS CLI をインストールした状態で作成できます。
+設定ファイルと認証情報ファイルは、'aws configure' コマンドを実行することで、AWS CLI をインストールした状態で作成できます。
 
 aws 設定 詳細については、このAWSドキュメントを参照してください。
 https://docs.aws.amazon.com/ja_jp/cli/latest/userguide/cli-configure-files.html
