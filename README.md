@@ -13,7 +13,7 @@ To install the AWS CLI version 2, see Install or update to the latest version o
 
 ## AWS CLI Configuration and Credential File
 To execute the commands you must configure AWS CLI with your Access Key and Secret Key.
-The configuration file and the credential file can be created with the AWS CLI installed by executing the aws configure command:
+The configuration file and the credential file can be created with the AWS CLI installed by executing the aws configure command:</p>
 `aws configure`
 
 Please refer this AWS document for details.
@@ -42,7 +42,7 @@ AWS CLI バージョン 2 をインストールするには、「AWS CLI の最�
 
 ## AWS CLI 設定ファイルと認証情報ファイルの設定
 AWS CLIコマンドを実行するには、アクセスキーとシークレットキーを設定ファイルと認証情報ファイルを作成する必要があります。 
-設定ファイルと認証情報ファイルは、'aws configure' コマンドを実行することで、AWS CLI をインストールした状態で作成できます。
+設定ファイルと認証情報ファイルは、'aws configure' コマンドを実行することで、AWS CLI をインストールした状態で作成できます。</p>
 `aws configure`
 
 詳細については、このAWSドキュメントを参照してください。
@@ -55,4 +55,4 @@ https://awscli.amazonaws.com/v2/documentation/api/latest/reference/iam/index.htm
 
 <b>WASABI CLOUD STORAGEの使用に関する注意事項</b></p> 
 コマンドは、ENDPOINT オプションを指定して実行する必要があります。
-エンドポイントは必ず「<b>'--endpoint-url https://iam.ap-northeast-1.wasabisys.com'</b>」を追加してください(必要に応じて対象地域に応じて変更してください)
+エンドポイントは必ず「<b>'--endpoint-url https://iam.ap-northeast-1.wasabisys.com'</b>」を追加してください(必要に応じて対象地域に応じて変更してください)。
