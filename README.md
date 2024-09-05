@@ -28,6 +28,10 @@ https://awscli.amazonaws.com/v2/documentation/api/latest/reference/iam/index.htm
 The command HAS to be executed with the ENDPOINT option specified. 
 Please always add the endpoint  "--endpoint-url https://iam.ap-northeast-1.wasabisys.com" (please change based on your target region if necessary).
 
+## How To Use
+Please refer to the following document that explain step by step how to use the tool provided here.
+https://github.com/luizcarloskazuyukifukaya/S3IAMBatchGenerator/blob/main/HowToUse.pdf
+
 # 日本語による補足
 このツールは、ユーザーやグループの管理など、IAMに関する操作を自動化するために用意されています。 
 自動化は AWS CLI コマンドを使用して実行され、このツールによって提供されるコマンドの実行には前提条件があります。 
@@ -52,6 +56,11 @@ https://docs.aws.amazon.com/ja_jp/cli/latest/userguide/cli-configure-files.html
 詳細：</p> 
 使用可能なすべてのコマンドについては、以下のAWSの公式ドキュメントを参照してください。 
 https://awscli.amazonaws.com/v2/documentation/api/latest/reference/iam/index.html
+
+## 使い方
+ツールの具体的な使い方に関しては、以下のドキュメントを参照下さい。
+https://github.com/luizcarloskazuyukifukaya/S3IAMBatchGenerator/blob/main/HowToUse.pdf
+
 
 <b>WASABI CLOUD STORAGEの使用に関する注意事項</b></p> 
 コマンドは、ENDPOINT オプションを指定して実行する必要があります。
